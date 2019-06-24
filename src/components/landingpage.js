@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLinkedin,
   faGithubSquare,
-  faGoogle
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 
 class Landing extends Component {
@@ -38,7 +38,7 @@ class Landing extends Component {
                   <FontAwesomeIcon className='icons' icon={faLinkedin} />
                 </a>
 
-                {/* Github */}
+                {/* GitHub */}
                 <a
                   href='https://github.com/devansheets4'
                   target='_blank'
@@ -47,13 +47,13 @@ class Landing extends Component {
                   <FontAwesomeIcon className='icons' icon={faGithubSquare} />
                 </a>
 
-                {/* Gmail */}
+                {/* YouTube */}
                 <a
                   href='www.google.com'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FontAwesomeIcon className='icons' icon={faGoogle} />
+                  <FontAwesomeIcon className='icons' icon={faYoutube} />
                 </a>
               </div>
             </div>

@@ -29,10 +29,10 @@ class Projects extends Component {
                 color: 'white',
                 height: '176px',
                 background:
-                  'url(https://cdn-images-1.medium.com/max/1600/1*ivjksIhvAs7TUXbQCxAU0A.jpeg) center / cover'
+                  'url(https://aglowiditsolutions-6lohnuosd1nx.netdna-ssl.com/wp-content/uploads/2018/09/Hire-Mean-Stack-Developer.png) center / cover'
               }}
             >
-              React Project #1
+              
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -58,10 +58,10 @@ class Projects extends Component {
                 color: 'white',
                 height: '176px',
                 background:
-                  'url(https://cdn-images-1.medium.com/max/1600/1*ivjksIhvAs7TUXbQCxAU0A.jpeg) center / cover'
+                  'url(https://www.codingdojo.com/blog/wp-content/uploads/html-css-js.png) center / cover'
               }}
             >
-              React Project #1
+              
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -87,10 +87,10 @@ class Projects extends Component {
                 color: 'white',
                 height: '176px',
                 background:
-                  'url(https://cdn-images-1.medium.com/max/1600/1*ivjksIhvAs7TUXbQCxAU0A.jpeg) center / cover'
+                  'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png) center / cover'
               }}
             >
-              React Project #1
+              
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
