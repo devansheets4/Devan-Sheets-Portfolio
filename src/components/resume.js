@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 import Courses from './courses';
 import Acumen from './acumen';
 
@@ -38,7 +37,15 @@ class Resume extends Component {
             <h5>Email</h5>
             <p> devansheets4@gmail.com</p>
             <h5>Web</h5>
-            <p><a href="https://github.com/devansheets4" target="_blank" rel="noopener noreferrer">GitHub Repositories</a></p>
+            <p>
+              <a
+                href='https://github.com/devansheets4'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                GitHub Repositories
+              </a>
+            </p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell className='resume-right-col' col={8}>
@@ -65,23 +72,18 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid black' }} />
             <h2>Technical Acumen</h2>
             <Acumen
-              acumen="Languages:"
-              description="Java, C++, JavaScript, HTML5, CSS3, SQL, NodeJS, ExpressJS"
-
-              acumen2="Web Frameworks:"
-              description2="Bootstrap4, AngularJS, ReactJS"
-
-              acumen3="Operating Systems:"
-              description3="Windows, Mac"
-
-              acumen4="Miscrosoft:"
-              description4="Excel, Word, Powerpoint"
-
-              acumen5="Analytics:"
-              description5="SAS Enterprise Guide, SAS Enterprise Minor, Tableau"
-
-              acumen6="Web Development:"
-              description6="Created MEAN web application for business use, React based website portfolio, and basic HTML/CSS beginners website."
+              acumen='Languages:'
+              description='Java, C++, JavaScript, HTML5, CSS3, SQL, NodeJS, ExpressJS'
+              acumen2='Web Frameworks:'
+              description2='Bootstrap4, AngularJS, ReactJS'
+              acumen3='Operating Systems:'
+              description3='Windows, Mac'
+              acumen4='Miscrosoft:'
+              description4='Excel, Word, Powerpoint'
+              acumen5='Analytics:'
+              description5='SAS Enterprise Guide, SAS Enterprise Minor, Tableau'
+              acumen6='Web Development:'
+              description6='Created MEAN stack web application for business use, React based website portfolio, and basic HTML/CSS beginners website.'
             />
             <hr style={{ borderTop: '3px solid black' }} />
             <h2>Experience</h2>
@@ -110,12 +112,6 @@ class Resume extends Component {
               jobName='Skyline/Skybest Communications - Costruction Intern'
               jobDescription='Description of the Construction Intern position'
             />
-            <hr style={{ borderTop: '3px solid black' }} />
-            <h2>Skills</h2>
-            <Skills skill='JavaScript' progress={100} />
-            <Skills skill='HTML/ CSS' progress={80} />
-            <Skills skill='NodeJS' progress={50} />
-            <Skills skill='React' progress={75} />
           </Cell>
         </Grid>
       </div>

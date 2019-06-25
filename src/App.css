@@ -70,6 +70,18 @@
   margin: auto;
 }
 
+#youtube:hover {
+  color: red;
+}
+
+#linkedin:hover {
+  color: #0077b5;
+}
+
+#github:hover {
+  color: #6cc644;
+}
+
 .icons {
   color: white;
   font-size: 5em;
@@ -120,13 +132,52 @@
   padding-right: 5rem;
 }
 
-.resume-right-col p, h4, h5{
-color: white;
+.resume-right-col p,
+h4,
+h5 {
+  color: white;
 }
 
 .resume-right-col {
-  background: #046A38;
-  color: #B9975B;
+  background: #046a38;
+  color: #b9975b;
   padding: 2em;
   border-radius: 20px;
+}
+
+.about-header {
+  text-align: center;
+}
+
+.about-header-right {
+  text-align: center;
+  background: #046a38;
+  border-radius: 20px;
+  color: white;
+}
+
+.cont-education {
+  background: #ff0055;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.cont-ed-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.front-languages {
+  background: blue;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.source-control {
+  background: #4b0082;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
 }

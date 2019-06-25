@@ -35,7 +35,11 @@ class Landing extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FontAwesomeIcon className='icons' icon={faLinkedin} />
+                  <FontAwesomeIcon
+                    className='icons'
+                    id='linkedin'
+                    icon={faLinkedin}
+                  />
                 </a>
 
                 {/* GitHub */}
@@ -44,16 +48,24 @@ class Landing extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FontAwesomeIcon className='icons' icon={faGithubSquare} />
+                  <FontAwesomeIcon
+                    className='icons'
+                    id='github'
+                    icon={faGithubSquare}
+                  />
                 </a>
 
                 {/* YouTube */}
                 <a
-                  href='www.google.com'
+                  href='https://www.youtube.com/channel/UCOPwI77L2b99JGE5Wl6hw-g?view_as=subscriber'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FontAwesomeIcon className='icons' icon={faYoutube} />
+                  <FontAwesomeIcon
+                    className='icons'
+                    id='youtube'
+                    icon={faYoutube}
+                  />
                 </a>
               </div>
             </div>

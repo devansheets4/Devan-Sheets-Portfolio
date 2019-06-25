@@ -23,6 +23,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className='projects-grid'>
+          {/*--------------------------------------------------------------------------------------------------------- */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
@@ -31,27 +32,44 @@ class Projects extends Component {
                 background:
                   'url(https://aglowiditsolutions-6lohnuosd1nx.netdna-ssl.com/wp-content/uploads/2018/09/Hire-Mean-Stack-Developer.png) center / cover'
               }}
-            >
-              
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            />
+            <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
+              Skyline/Skybest Irregular Plant Web Application
+            </CardText>
+            <CardText style={{ textAlign: 'center' }}>
+              This is a MEAN stack application built with AngularJS, NodeJS,
+              Express, and a MongoDB backend non-relational database.
             </CardText>
 
-            <CardActions>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions style={{ textAlign: 'center' }}>
+              <Button
+                colored
+                href='https://github.com/devansheets4/Irregular-Plant-App'
+                target='_blank'
+              >
+                GitHub
+              </Button>
+              <Button
+                colored
+                href='https://youtu.be/3hBDMfZwr80'
+                target='_blank'
+              >
+                View Desktop Demo
+              </Button>
+              <Button
+                colored
+                href='https://www.youtube.com/watch?v=V5nDs7EM7-0&t=3s'
+                target='_blank'
+              >
+                View Mobile Demo
+              </Button>
             </CardActions>
 
             <CardMenu style={{ color: 'fff' }}>
               <IconButton name='share' />
             </CardMenu>
           </Card>
-
+          {/*--------------------------------------------------------------------------------------------------------- */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
@@ -60,27 +78,41 @@ class Projects extends Component {
                 background:
                   'url(https://www.codingdojo.com/blog/wp-content/uploads/html-css-js.png) center / cover'
               }}
-            >
-              
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            />
+            <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
+              {' '}
+              Sheets Country Store{' '}
+            </CardText>
+            <CardText style={{ textAlign: 'center' }}>
+              My very first website ever built. Constructed using only barebones
+              HTML, CSS, JavaScript, and some Bootstrap. This was mainly a
+              project to build up my understanding of what goes into building
+              larger scale websites with JavaScript frameworks such as React and
+              Angular.
             </CardText>
 
-            <CardActions>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions style={{ textAlign: 'center' }}>
+              <Button
+                colored
+                href='https://github.com/devansheets4/Sheets-Country-Store'
+                target='_blank'
+              >
+                GitHub
+              </Button>
+              <Button
+                colored
+                href='http://sheetscountrystore.com/'
+                target='_blank'
+              >
+                Visit Site
+              </Button>
             </CardActions>
 
             <CardMenu style={{ color: 'fff' }}>
               <IconButton name='share' />
             </CardMenu>
           </Card>
-
+          {/*--------------------------------------------------------------------------------------------------------- */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
@@ -89,26 +121,31 @@ class Projects extends Component {
                 background:
                   'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png) center / cover'
               }}
-            >
-              
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            />
+            <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
+              Devan Sheets Web Portfolio
+            </CardText>
+            <CardText style={{ textAlign: 'center' }}>
+              The site you are currently sitting on if you are reading this.
+              Built using the React JavaScript framework. This is by far my
+              favorite framework to use. Check out the code in my GitHub link.
             </CardText>
 
-            <CardActions>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions style={{ textAlign: 'center' }}>
+              <Button
+                colored
+                href='https://github.com/devansheets4/Devan-Sheets-Portfolio'
+                target='_blank'
+              >
+                GitHub
+              </Button>
             </CardActions>
 
             <CardMenu style={{ color: 'fff' }}>
               <IconButton name='share' />
             </CardMenu>
           </Card>
+          {/*--------------------------------------------------------------------------------------------------------- */}
         </div>
       );
     } else if (this.state.activeTab === 1) {
