@@ -6,6 +6,7 @@ import {
   faGithubSquare,
   faYoutube
 } from '@fortawesome/free-brands-svg-icons';
+import avatar from '../assets/avatar.jpg';
 
 class Landing extends Component {
   render() {
@@ -14,11 +15,12 @@ class Landing extends Component {
         <Grid className='landing-grid'>
           <Cell col={12}>
             <img
-              src='http://chittagongit.com/download/316595'
+              src={avatar}
               alt='avatar'
               className='avatar-img'
             />
 
+              
             <div className='banner-text'>
               <h1>Full Stack Web Developer</h1>
               <hr />

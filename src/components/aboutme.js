@@ -1,5 +1,24 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import charlotte from '../assets/charlotte.png';
+
+import freecodecamp from '../assets/freecodecamp.png';
+import udemy from '../assets/udemy.png';
+import skillshare from '../assets/skillshare.jpg';
+import youtube from '../assets/youtube.png';
+
+import html5 from '../assets/html5.png';
+import css3 from '../assets/css3.png';
+import javascript from '../assets/javascript.png';
+import angular from '../assets/angular.png';
+import react from '../assets/react.png';
+import nodejs from '../assets/nodejs.png';
+import mongodb from '../assets/mongodb.png';
+
+import github from '../assets/github.png';
+import bitbucket from '../assets/bitbucket.png';
+import gitkracken from '../assets/gitkracken.png';
+import vscode from '../assets/vscode.png';
 
 class About extends Component {
   render() {
@@ -9,8 +28,8 @@ class About extends Component {
           <Cell className='about-header' col={4}>
             <div>
               <img
-                src='https://static1.squarespace.com/static/56a7b1d0841aba91dc0e825a/t/587fa133d482e9a27b14591a/1484759361852/'
-                alt='logo'
+                src={charlotte}
+                alt='charlotte-logo'
               />
             </div>
           </Cell>
@@ -20,7 +39,7 @@ class About extends Component {
             style={{ margin: 'auto' }}
             col={8}
           >
-            <div id='bachelors'>
+            <div>
               <h2>Bachelors Degree in Computer Science</h2>
             </div>
           </Cell>
@@ -36,7 +55,7 @@ class About extends Component {
               rel='noopener noreferrer'
             >
               <img
-                src='https://d3q6qq2zt8nhwv.cloudfront.net/platform/dbb1a59e6e594c7c8119a9220968a767.png'
+                src={udemy}
                 alt='udemy'
                 className='cont-ed-logo'
               />
@@ -49,7 +68,7 @@ class About extends Component {
               rel='noopener noreferrer'
             >
               <img
-                src='https://apprecs.org/gp/images/app-icons/300/df/com.skillshare.Skillshare.jpg'
+                src={skillshare}
                 alt='skillshare'
                 className='cont-ed-logo'
               />
@@ -62,7 +81,7 @@ class About extends Component {
               rel='noopener noreferrer'
             >
               <img
-                src='https://cdn-images-1.medium.com/max/1200/1*zQQIXt4AAIUYQD1umtwEZg.jpeg'
+                src={youtube}
                 alt='youtube'
                 className='cont-ed-logo'
               />
@@ -75,7 +94,7 @@ class About extends Component {
               rel='noopener noreferrer'
             >
               <img
-                src='https://png.pngtree.com/svg/20170629/660377369c.svg'
+                src={freecodecamp}
                 alt='free-code-camp'
                 className='cont-ed-logo'
               />
@@ -84,7 +103,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://www.stickpng.com/assets/images/5847f5bdcef1014c0b5e489c.png'
+              src={html5}
               alt='html5'
               className='cont-ed-logo'
             />
@@ -92,7 +111,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png'
+              src={css3}
               alt='css3'
               className='cont-ed-logo'
             />
@@ -100,7 +119,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png'
+              src={javascript}
               alt='javascript'
               className='cont-ed-logo'
             />
@@ -108,7 +127,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://cdn.auth0.com/blog/angular2-series/angular2-logo.png'
+              src={angular}
               alt='angular'
               className='cont-ed-logo'
             />
@@ -116,7 +135,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png'
+              src={react}
               alt='react'
               className='cont-ed-logo'
             />
@@ -124,14 +143,14 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='http://pluspng.com/img-png/nodejs-logo-png--375.png'
+              src={nodejs}
               alt='nodejs'
               className='cont-ed-logo'
             />
           </Cell>
           <Cell col={1}>
             <img
-              src='https://www.logolynx.com/images/logolynx/1d/1dc095a3727268179049d6cb7f9b7212.png'
+              src={mongodb}
               alt='mongodb'
               className='cont-ed-logo'
             />
@@ -149,7 +168,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://image.flaticon.com/icons/svg/38/38401.svg'
+              src={github}
               alt='github'
               className='cont-ed-logo'
             />
@@ -157,7 +176,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://seeklogo.com/images/B/bitbucket-logo-D072214725-seeklogo.com.png'
+              src={bitbucket}
               alt='bitbucket'
               className='cont-ed-logo'
             />
@@ -165,7 +184,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://www.stickpng.com/assets/images/5847f989cef1014c0b5e48bf.png'
+              src={gitkracken}
               alt='gitkracken'
               className='cont-ed-logo'
             />
@@ -173,7 +192,7 @@ class About extends Component {
 
           <Cell col={1}>
             <img
-              src='https://dashboard.snapcraft.io/site_media/appmedia/2019/05/code_ozwVHSV.png'
+              src={vscode}
               alt='vscode'
               className='cont-ed-logo'
             />

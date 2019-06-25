@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Courses from './courses';
 import Acumen from './acumen';
+import avatar from '../assets/avatar.jpg';
 
 class Resume extends Component {
   render() {
@@ -13,7 +14,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: 'center' }}>
               <img
-                src='http://chittagongit.com/download/316595'
+                src={avatar}
                 alt='avatar'
                 style={{ height: '200px' }}
               />
