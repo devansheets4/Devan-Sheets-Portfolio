@@ -90,6 +90,7 @@
 
 .projects-grid {
   display: flex;
+  margin-top: 2em;
 }
 
 .contact-body {
@@ -143,41 +144,4 @@ h5 {
   color: #b9975b;
   padding: 2em;
   border-radius: 20px;
-}
-
-.about-header {
-  text-align: center;
-}
-
-.about-header-right {
-  text-align: center;
-  background: #046a38;
-  border-radius: 20px;
-  color: white;
-}
-
-.cont-education {
-  background: #ff0055;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-}
-
-.cont-ed-logo {
-  height: 100px;
-  width: 100px;
-}
-
-.front-languages {
-  background: blue;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-}
-
-.source-control {
-  background: #4b0082;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
 }
