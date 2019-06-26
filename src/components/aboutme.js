@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Button, Tab, Tabs } from 'react-mdl';
+import { Grid, Cell, Tab, Tabs } from 'react-mdl';
 // import charlotte from '../assets/charlotte.png';
 
 // import freecodecamp from '../assets/freecodecamp.png';
