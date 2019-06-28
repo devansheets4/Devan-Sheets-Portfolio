@@ -45,7 +45,8 @@
   border-radius: 10px;
 }
 
-.banner-text h1, h3 {
+.banner-text h1,
+h3 {
   font-size: 66px;
   font-weight: bold;
   color: white;
@@ -143,5 +144,33 @@ h5 {
   background: #046a38;
   color: #b9975b;
   padding: 2em;
+  border-radius: 20px;
+}
+
+.aboutme-left {
+  background: #1fddff;
+  border-radius: 20px;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.grid-about h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+.aboutme-right {
+  background: #ff4b1f;
+  border-radius: 20px;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.grid-about a {
+  text-decoration: underline;
+  color: black;
+}
+
+.grid-about {
+  background: grey;
   border-radius: 20px;
 }

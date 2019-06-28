@@ -14,16 +14,10 @@ class Landing extends Component {
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className='landing-grid'>
           <Cell col={12}>
-            <img
-              src={avatar}
-              alt='avatar'
-              className='avatar-img'
-            />
+            <img src={avatar} alt='avatar' className='avatar-img' />
 
-              
             <div className='banner-text'>
-              <h1>Hi! I'm a Software Engineer</h1>
-              <h3>I build things</h3>
+              <h1>Hi! I'm an aspiring Software Engineer</h1>
               <hr />
 
               <p>

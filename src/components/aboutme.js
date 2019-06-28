@@ -30,25 +30,89 @@ class About extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div>
-          <h1>AboutMe</h1>
-        </div>
+        <Grid className='grid-about'>
+          <Cell className='aboutme-left' col={4}>
+            <div>
+              <h1>Hello There!</h1>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-right' col={8}>
+            <div>
+              <h1>My name is Devan Sheets & I am a graduate of</h1>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-right' col={8}>
+            <div>
+              <a
+                href='https://uncc.edu'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <h1 style={{ textDecoration: 'underline', color: 'black' }}>
+                  The University of North Carolina at Charlotte
+                </h1>
+              </a>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-left' col={4}>
+            <div>
+              <h1>with a Bachelors in</h1>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-left' col={4}>
+            <div>
+              <h1>Computer Science.</h1>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-right' col={8}>
+            <div>
+              <h1>
+                I work for{' '}
+                <a
+                  href='https://skybest.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Skyline/Skybest
+                </a>{' '}
+                communications in my
+              </h1>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-right' col={8}>
+            <div>
+              <h1>hometown of West Jefferson, NC as an Information</h1>
+            </div>
+          </Cell>
+
+          <Cell className='aboutme-left' col={4}>
+            <div>
+              <h1>Technology Intern</h1>
+            </div>
+          </Cell>
+        </Grid>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
+        <div className='whatido'>
           <h1> What I do </h1>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
+        <div className='whereimfrom'>
           <h1> Where i'm from </h1>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
-        <div>
+        <div className='goals'>
           <h1> What my goals are </h1>
         </div>
       );
