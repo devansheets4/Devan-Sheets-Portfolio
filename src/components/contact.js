@@ -34,11 +34,13 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: '30px', fontFamily: 'Anton' }}
                   >
-                    <FontAwesomeIcon
-                      className='contact-icons'
-                      icon={faPhoneSquare}
-                    />
-                    (336) 977-3622
+                    <div>
+                      <FontAwesomeIcon
+                        className='contact-icons'
+                        icon={faPhoneSquare}
+                      />
+                      (336) 977-3622
+                    </div>
                   </ListItemContent>
                 </ListItem>
                 {/*----------------------------------------------------------------------------- */}

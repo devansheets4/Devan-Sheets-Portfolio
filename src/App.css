@@ -85,7 +85,7 @@ h3 {
 
 .icons {
   color: white;
-  font-size: 5em;
+  font-size: 7rem;
   padding: 10px;
 }
 
@@ -130,8 +130,9 @@ h3 {
 
 .contact-icons {
   color: black;
-  font-size: 66px;
+  font-size: 5em;
   padding-right: 5rem;
+  padding-top: 5rem;
 }
 
 .resume-right-col p,
@@ -173,4 +174,33 @@ h5 {
 .grid-about {
   background: grey;
   border-radius: 20px;
+}
+
+.grid-languages h1,
+.grid-languages h2 {
+  font-family: 'Inconsolata', monospace;
+}
+
+.languages,
+.languages-list {
+  background: #1fddff;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.languages-list {
+  color: black;
+}
+
+.languages-skills {
+  padding: 2em;
+}
+
+.progress {
+  margin-top: 1.5em;
+  margin-bottom: 5.5em;
+}
+
+.progress2 {
+  margin-bottom: 5.5em;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Tab, Tabs } from 'react-mdl';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 // import charlotte from '../assets/charlotte.png';
 
 // import freecodecamp from '../assets/freecodecamp.png';
@@ -100,9 +101,74 @@ class About extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div className='whatido'>
-          <h1> What I do </h1>
-        </div>
+        <Grid className='grid-languages'>
+          <Cell col={2} />
+          <Cell className='languages' col={8}>
+            <div>
+              <h1>{'<h1> What languages do I know? </h1>'}</h1>
+            </div>
+          </Cell>
+
+          <Cell col={2} />
+          <Cell col={2} />
+
+          <Cell className='languages-list' col={2}>
+            <div>
+              <h2>HTML</h2>
+              <h2>CSS</h2>
+              <h2>JavaScript</h2>
+              <h2>React</h2>
+              <h2>Angular</h2>
+              <h2>Node</h2>
+              <h2>Python</h2>
+            </div>
+          </Cell>
+
+          <Cell className='languages-skills' col={6}>
+            <ProgressBar
+              className='progress'
+              striped
+              variant='danger'
+              now={90}
+            />
+            <ProgressBar
+              className='progress2'
+              striped
+              variant='danger'
+              now={90}
+            />
+            <ProgressBar
+              className='progress2'
+              striped
+              variant='danger'
+              now={60}
+            />
+            <ProgressBar
+              className='progress2'
+              striped
+              variant='danger'
+              now={45}
+            />
+            <ProgressBar
+              className='progress2'
+              striped
+              variant='danger'
+              now={45}
+            />
+            <ProgressBar
+              className='progress2'
+              striped
+              variant='danger'
+              now={30}
+            />
+            <ProgressBar
+              className='progress2'
+              striped
+              variant='danger'
+              now={25}
+            />
+          </Cell>
+        </Grid>
       );
     } else if (this.state.activeTab === 2) {
       return (
@@ -128,8 +194,8 @@ class About extends Component {
           ripple
         >
           <Tab>About Me</Tab>
-          <Tab>What I do </Tab>
-          <Tab>Where i'm from</Tab>
+          <Tab>Languages</Tab>
+          <Tab>What I can do</Tab>
           <Tab>My Goals</Tab>
         </Tabs>
 
