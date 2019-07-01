@@ -163,13 +163,21 @@ h5 {
 
 .about-center {
   text-align: center;
-  background: #046a38;
-  border-radius: 20px;
+}
+
+.about-center h3,
+.about-right h3 {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+.about-center img {
+  float: left;
 }
 
 .about-right {
   text-align: center;
-  background: #ff4b1f;
   border-radius: 20px;
 }
 

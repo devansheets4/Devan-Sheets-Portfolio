@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { Grid, Cell, Tab, Tabs } from 'react-mdl';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import profile1 from '../assets/profile1.jpg';
+import huskies from '../assets/huskies.jpg';
+import unccSmall from '../assets/unccSmall.png';
 // import charlotte from '../assets/charlotte.png';
 
-// import freecodecamp from '../assets/freecodecamp.png';
-// import udemy from '../assets/udemy.png';
-// import skillshare from '../assets/skillshare.jpg';
-// import youtube from '../assets/youtube.png';
+import freecodecamp from '../assets/freecodecamp.png';
+import udemy from '../assets/udemy.png';
+import skillshare from '../assets/skillshare.jpg';
+import youtube from '../assets/youtube.png';
 
 // import html5 from '../assets/html5.png';
 // import css3 from '../assets/css3.png';
@@ -45,17 +47,50 @@ class About extends Component {
               <img
                 style={{ width: '75%', borderRadius: '20px' }}
                 src={profile1}
+                alt='Devan Sheets'
               />
             </div>
           </Cell>
           <Cell col={4}>
             <div className='about-center'>
-              <h2>Center</h2>
+              <div>
+                <img src={huskies} alt='huskies' />
+                <h3> Ashe County High School</h3>
+                <h3> West Jefferson, NC</h3>
+                <h3> Class of 2014</h3>
+                <h3> Go Huskies</h3>
+              </div>
+              <hr
+                style={{
+                  width: '80%',
+                  borderTop: '3px dotted black',
+                  margin: 'auto'
+                }}
+              />
+              <div>
+                <img style={{ width: '200px' }} src={unccSmall} alt='uncc' />
+                <h3> UNC Charlotte </h3>
+                <h3> Class of 2018</h3>
+                <h3> Bachelor of Science</h3>
+                <h3> Computer Science</h3>
+              </div>
             </div>
           </Cell>
           <Cell col={4}>
             <div className='about-right'>
-              <h2>Right</h2>
+              <h3>Continuing Education Courses</h3>
+              <img src={udemy} style={{ width: '200px' }} alt='udemy' />
+              <img
+                style={{ width: '200px' }}
+                src={skillshare}
+                alt='skillshare'
+              />
+              <img style={{ width: '250px' }} src={youtube} alt='youtube' />
+              <img
+                style={{ width: '200px' }}
+                src={freecodecamp}
+                alt='freecodecamp'
+              />
             </div>
           </Cell>
         </Grid>
