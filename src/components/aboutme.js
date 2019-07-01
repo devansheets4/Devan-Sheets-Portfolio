@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Tab, Tabs } from 'react-mdl';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import profile1 from '../assets/profile1.jpg';
 // import charlotte from '../assets/charlotte.png';
 
 // import freecodecamp from '../assets/freecodecamp.png';
@@ -32,69 +33,29 @@ class About extends Component {
     if (this.state.activeTab === 0) {
       return (
         <Grid className='grid-about'>
-          <Cell className='aboutme-left' col={4}>
+          <Cell col={2} />
+          <Cell className='about-header' col={8}>
             <div>
-              <h1>Hello There!</h1>
+              <h1>The guy behind the scenes</h1>
             </div>
           </Cell>
-
-          <Cell className='aboutme-right' col={8}>
-            <div>
-              <h1>My name is Devan Sheets & I am a graduate of</h1>
+          <Cell col={2} />
+          <Cell col={4}>
+            <div shadow={5} className='about-left'>
+              <img
+                style={{ width: '75%', borderRadius: '20px' }}
+                src={profile1}
+              />
             </div>
           </Cell>
-
-          <Cell className='aboutme-right' col={8}>
-            <div>
-              <a
-                href='https://uncc.edu'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <h1 style={{ textDecoration: 'underline', color: 'black' }}>
-                  The University of North Carolina at Charlotte
-                </h1>
-              </a>
+          <Cell col={4}>
+            <div className='about-center'>
+              <h2>Center</h2>
             </div>
           </Cell>
-
-          <Cell className='aboutme-left' col={4}>
-            <div>
-              <h1>with a Bachelors in</h1>
-            </div>
-          </Cell>
-
-          <Cell className='aboutme-left' col={4}>
-            <div>
-              <h1>Computer Science.</h1>
-            </div>
-          </Cell>
-
-          <Cell className='aboutme-right' col={8}>
-            <div>
-              <h1>
-                I work for{' '}
-                <a
-                  href='https://skybest.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Skyline/Skybest
-                </a>{' '}
-                communications in my
-              </h1>
-            </div>
-          </Cell>
-
-          <Cell className='aboutme-right' col={8}>
-            <div>
-              <h1>hometown of West Jefferson, NC as an Information</h1>
-            </div>
-          </Cell>
-
-          <Cell className='aboutme-left' col={4}>
-            <div>
-              <h1>Technology Intern</h1>
+          <Cell col={4}>
+            <div className='about-right'>
+              <h2>Right</h2>
             </div>
           </Cell>
         </Grid>
@@ -103,7 +64,7 @@ class About extends Component {
       return (
         <Grid className='grid-languages'>
           <Cell col={2} />
-          <Cell className='languages' col={8}>
+          <Cell shadow={7} className='languages' col={8}>
             <div>
               <h1>{'<h1> What languages do I know? </h1>'}</h1>
             </div>
@@ -112,7 +73,7 @@ class About extends Component {
           <Cell col={2} />
           <Cell col={2} />
 
-          <Cell className='languages-list' col={2}>
+          <Cell shadow={7} className='languages-list' col={2}>
             <div>
               <h2>HTML</h2>
               <h2>CSS</h2>

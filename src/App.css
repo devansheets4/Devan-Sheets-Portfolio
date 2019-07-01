@@ -148,31 +148,28 @@ h5 {
   border-radius: 20px;
 }
 
-.aboutme-left {
-  background: #1fddff;
-  border-radius: 20px;
-  padding: 1em 2em;
-  text-align: center;
-}
-
 .grid-about h1 {
   font-family: 'Anton', sans-serif;
 }
 
-.aboutme-right {
-  background: #ff4b1f;
-  border-radius: 20px;
-  padding: 1em 2em;
+.about-header {
   text-align: center;
 }
 
-.grid-about a {
-  text-decoration: underline;
-  color: black;
+.about-left {
+  text-align: center;
+  border-radius: 20px;
 }
 
-.grid-about {
-  background: grey;
+.about-center {
+  text-align: center;
+  background: #046a38;
+  border-radius: 20px;
+}
+
+.about-right {
+  text-align: center;
+  background: #ff4b1f;
   border-radius: 20px;
 }
 
