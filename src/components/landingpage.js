@@ -17,7 +17,7 @@ class Landing extends Component {
             <img src={avatar} alt='avatar' className='avatar-img' />
 
             <div className='banner-text'>
-              <h1>Hi! I'm a Software Engineer</h1>
+              <h1>Software Engineer</h1>
               <hr />
 
               <p>
