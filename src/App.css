@@ -150,6 +150,7 @@ h5 {
 
 .grid-about h1 {
   font-family: 'Anton', sans-serif;
+  text-align: center;
 }
 
 .about-header {
@@ -192,6 +193,8 @@ h5 {
   text-align: center;
   border-radius: 20px;
 }
+
+
 
 .languages-list {
   color: black;

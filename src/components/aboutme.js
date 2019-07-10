@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typing from 'react-typing-animation';
 import { Grid, Cell, Tab, Tabs } from 'react-mdl';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import profile1 from '../assets/profile1.jpg';
@@ -76,21 +77,46 @@ class About extends Component {
               </div>
             </div>
           </Cell>
-          <Cell col={4}>
+          <Cell col={2}>
+            <h1>Continuing</h1>
             <div className='about-right'>
-              <h3>Continuing Education Courses</h3>
-              <img src={udemy} style={{ width: '200px' }} alt='udemy' />
-              <img
+              <a href='https://www.udemy.com/' 
+              target='_blank' 
+              rel="noopener noreferrer"
+              >
+                <img src={udemy} style={{ width: '200px' }} alt='udemy' />
+              </a>
+              
+              <a href='https://www.youtube.com/' 
+              target='_blank' 
+              rel="noopener noreferrer">
+                <img style={{ width: '250px' }} src={youtube} alt='youtube' />
+              </a>
+            </div>
+          </Cell>
+
+          <Cell col={2}>
+            <h1>Education</h1>
+            <div className='about-right'>
+
+              <a href='https://www.skillshare.com/' 
+              target='_blank' 
+              rel="noopener noreferrer"><img
                 style={{ width: '200px' }}
                 src={skillshare}
                 alt='skillshare'
               />
-              <img style={{ width: '250px' }} src={youtube} alt='youtube' />
-              <img
-                style={{ width: '200px' }}
+              </a>
+
+              <a href='https://www.freecodecamp.com/' 
+              target='_blank' 
+              rel="noopener noreferrer"><img
+                style={{ width: '200px', marginTop: '4em' }}
                 src={freecodecamp}
                 alt='freecodecamp'
-              />
+              /></a>
+              
+              
             </div>
           </Cell>
         </Grid>
@@ -100,9 +126,9 @@ class About extends Component {
         <Grid className='grid-languages'>
           <Cell col={2} />
           <Cell shadow={7} className='languages' col={8}>
-            <div>
-              <h1>{'<h1> What languages do I know? </h1>'}</h1>
-            </div>
+            <Typing speed={100}>
+              <h1>{"<h1>What languages do I know?</h1>"}</h1>
+            </Typing>
           </Cell>
 
           <Cell col={2} />
@@ -123,47 +149,41 @@ class About extends Component {
           <Cell className='languages-skills' col={6}>
             <ProgressBar
               className='progress'
-              striped
-              variant='danger'
+              animated
               now={90}
             />
             <ProgressBar
               className='progress2'
-              striped
-              variant='danger'
+              animated
               now={90}
             />
             <ProgressBar
               className='progress2'
-              striped
-              variant='danger'
+              animated
               now={60}
             />
             <ProgressBar
               className='progress2'
-              striped
-              variant='danger'
+              animated
               now={45}
             />
             <ProgressBar
               className='progress2'
-              striped
-              variant='danger'
+              animated
               now={45}
             />
             <ProgressBar
               className='progress2'
-              striped
-              variant='danger'
+              animated
               now={30}
             />
             <ProgressBar
               className='progress2'
-              striped
-              variant='danger'
+              animated
               now={25}
             />
           </Cell>
+
         </Grid>
       );
     } else if (this.state.activeTab === 2) {
@@ -204,5 +224,7 @@ class About extends Component {
     );
   }
 }
+
+
 
 export default About;
