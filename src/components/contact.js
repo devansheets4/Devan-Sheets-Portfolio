@@ -3,6 +3,7 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faSkype } from '@fortawesome/free-brands-svg-icons';
+import avatar from '../assets/avatar.jpg';
 
 class Contact extends Component {
   render() {
@@ -11,11 +12,7 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h2> Devan Sheets </h2>
-            <img
-              src='http://chittagongit.com/download/316595'
-              alt='avatar'
-              style={{ height: '250px' }}
-            />
+            <img src={avatar} alt='avatar' style={{ height: '250px' }} />
 
             <p style={{ width: '50%', margin: 'auto', paddingTop: '1em' }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
