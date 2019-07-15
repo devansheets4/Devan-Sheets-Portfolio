@@ -77,28 +77,30 @@ class About extends Component {
               </div>
             </div>
           </Cell>
-          <Cell col={2}>
-            <h1>Continuing</h1>
-            <div className='about-right'>
+          <Cell col={4}>
+
+            <Grid>
+              <Cell col={12}>
+                <h1>Continuing Education</h1>
+              </Cell>
+              <Cell col={5}>
               <a href='https://www.udemy.com/' 
               target='_blank' 
               rel="noopener noreferrer"
               >
-                <img src={udemy} style={{ width: '200px' }} alt='udemy' />
+                <img src={udemy} style={{ width: '200px' }}  alt='udemy' />
               </a>
-              
+              </Cell>
+              <Cell col={2}></Cell>
+              <Cell col={5}>
               <a href='https://www.youtube.com/' 
               target='_blank' 
               rel="noopener noreferrer">
-                <img style={{ width: '250px' }} src={youtube} alt='youtube' />
+                <img style={{ width: '200px' }} src={youtube} alt='youtube' />
               </a>
-            </div>
-          </Cell>
+              </Cell>
 
-          <Cell col={2}>
-            <h1>Education</h1>
-            <div className='about-right'>
-
+              <Cell col={5}>
               <a href='https://www.skillshare.com/' 
               target='_blank' 
               rel="noopener noreferrer"><img
@@ -107,17 +109,18 @@ class About extends Component {
                 alt='skillshare'
               />
               </a>
-
+              </Cell>
+              <Cell col={2}></Cell>
+              <Cell col={5}>
               <a href='https://www.freecodecamp.com/' 
               target='_blank' 
               rel="noopener noreferrer"><img
-                style={{ width: '200px', marginTop: '4em' }}
+                style={{ width: '200px' }}
                 src={freecodecamp}
                 alt='freecodecamp'
               /></a>
-              
-              
-            </div>
+              </Cell>
+            </Grid>
           </Cell>
         </Grid>
       );
@@ -135,15 +138,29 @@ class About extends Component {
           <Cell col={2} />
 
           <Cell shadow={7} className='languages-list' col={2}>
-            <div>
-              <h2>HTML</h2>
-              <h2>CSS</h2>
-              <h2>JavaScript</h2>
-              <h2>React</h2>
-              <h2>Angular</h2>
-              <h2>Node</h2>
-              <h2>Python</h2>
-            </div>
+            <Grid>
+              <Cell col={12}>
+                <h2>HTML</h2>
+              </Cell>
+              <Cell col={12}>
+                <h2>CSS</h2>
+              </Cell>
+              <Cell col={12}>
+                <h2>Java Script</h2>
+              </Cell>
+              <Cell col={12}>
+                <h2>React</h2>
+              </Cell>
+              <Cell col={12}>
+                <h2>Angular</h2>
+              </Cell>
+              <Cell col={12}>
+                <h2>Node</h2>
+              </Cell>
+              <Cell col={12}>
+                <h2>Python</h2>
+              </Cell>
+            </Grid>
           </Cell>
 
           <Cell className='languages-skills' col={6}>
@@ -160,17 +177,17 @@ class About extends Component {
             <ProgressBar
               className='progress2'
               animated
-              now={60}
+              now={70}
             />
             <ProgressBar
               className='progress2'
               animated
-              now={45}
+              now={55}
             />
             <ProgressBar
               className='progress2'
               animated
-              now={45}
+              now={40}
             />
             <ProgressBar
               className='progress2'
