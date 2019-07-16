@@ -22,7 +22,7 @@ class Landing extends Component {
 
               <p>
                 HTML | CSS | Bootstrap | JavaScript | React |
-                Angular | NodeJS | Express | MongoDB | Python
+                Angular | NodeJS | Express | MongoDB | Python | Vue
               </p>
 
               <div className='social-links'>
