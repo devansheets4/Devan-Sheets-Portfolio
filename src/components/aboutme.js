@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Typing from 'react-typing-animation';
 import { Grid, Cell, Tab, Tabs } from 'react-mdl';
+import Languages from './languages';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import profile1 from '../assets/profile1.jpg';
 import huskies from '../assets/huskies.jpg';
@@ -43,15 +44,7 @@ class About extends Component {
             </div>
           </Cell>
           <Cell col={2} />
-          <Cell col={4}>
-            <div shadow={5} className='about-left'>
-              <img
-                style={{ width: '75%', borderRadius: '20px' }}
-                src={profile1}
-                alt='Devan Sheets'
-              />
-            </div>
-          </Cell>
+
           <Cell col={4}>
             <div className='about-center'>
               <div>
@@ -78,10 +71,19 @@ class About extends Component {
             </div>
           </Cell>
           <Cell col={4}>
+            <div shadow={5} className='about-left'>
+              <img
+                style={{ width: '75%', borderRadius: '20px' }}
+                src={profile1}
+                alt='Devan Sheets'
+              />
+            </div>
+          </Cell>
+          
+          <Cell col={4}>
 
             <Grid>
               <Cell col={12}>
-                <h1>Continuing Education</h1>
               </Cell>
               <Cell col={5}>
               <a href='https://www.udemy.com/' 
@@ -99,7 +101,7 @@ class About extends Component {
                 <img style={{ width: '200px' }} src={youtube} alt='youtube' />
               </a>
               </Cell>
-
+              
               <Cell col={5}>
               <a href='https://www.skillshare.com/' 
               target='_blank' 
@@ -126,10 +128,11 @@ class About extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <Grid className='grid-languages'>
+        <div>
+          <Grid className='grid-languages'>
           <Cell col={2} />
           <Cell shadow={7} className='languages' col={8}>
-            <Typing speed={100}>
+            <Typing speed={70}>
               <h1>{"<h1>What languages do I know?</h1>"}</h1>
             </Typing>
           </Cell>
@@ -138,29 +141,16 @@ class About extends Component {
           <Cell col={2} />
 
           <Cell shadow={7} className='languages-list' col={2}>
-            <Grid>
-              <Cell col={12}>
-                <h2>HTML</h2>
-              </Cell>
-              <Cell col={12}>
-                <h2>CSS</h2>
-              </Cell>
-              <Cell col={12}>
-                <h2>Java Script</h2>
-              </Cell>
-              <Cell col={12}>
-                <h2>React</h2>
-              </Cell>
-              <Cell col={12}>
-                <h2>Angular</h2>
-              </Cell>
-              <Cell col={12}>
-                <h2>Node</h2>
-              </Cell>
-              <Cell col={12}>
-                <h2>Python</h2>
-              </Cell>
-            </Grid>
+            <Languages
+              lang1='HTML'
+              lang2='CSS'
+              lang3='JAVA SCRIPT'
+              lang4='REACT'
+              lang5='ANGULAR'
+              lang6='NODE'
+              lang7='PYTHON'
+            />
+              
           </Cell>
 
           <Cell className='languages-skills' col={6}>
@@ -202,20 +192,9 @@ class About extends Component {
           </Cell>
 
         </Grid>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div className='whereimfrom'>
-          <h1> Where i'm from </h1>
         </div>
       );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div className='goals'>
-          <h1> What my goals are </h1>
-        </div>
-      );
-    }
+    } 
   }
 
   render() {
@@ -228,8 +207,6 @@ class About extends Component {
         >
           <Tab>About Me</Tab>
           <Tab>Languages</Tab>
-          <Tab>What I can do</Tab>
-          <Tab>My Goals</Tab>
         </Tabs>
 
         <Grid>

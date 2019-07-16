@@ -23,14 +23,6 @@ class Resume extends Component {
             <h2 style={{ paddingTop: '2em' }}>Devan Sheets</h2>
             <h4 style={{ color: 'grey' }}>Programmer</h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <p>
-              {' '}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
             <p>3376 NC HWY 16 South, Jefferson, NC 28640</p>
             <h5>Phone</h5>
@@ -84,7 +76,7 @@ class Resume extends Component {
               acumen5='Analytics:'
               description5='SAS Enterprise Guide, SAS Enterprise Minor, Tableau'
               acumen6='Web Development:'
-              description6='Created MEAN stack web application for business use, React based website portfolio, and basic HTML/CSS beginners website.'
+              description6='Created MEAN stack web application, React based website portfolio, and basic HTML/CSS website.'
             />
             <hr style={{ borderTop: '3px solid black' }} />
             <h2>Experience</h2>
