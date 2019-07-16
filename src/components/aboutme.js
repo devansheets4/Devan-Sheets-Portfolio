@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import Typing from 'react-typing-animation';
+// import Typing from 'react-typing-animation';
 import { Grid, Cell, Tab, Tabs } from 'react-mdl';
-import Languages from './languages';
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import profile1 from '../assets/profile1.jpg';
-import huskies from '../assets/huskies.jpg';
-import unccSmall from '../assets/unccSmall.png';
+import Sheets from '../assets/Sheets.PNG';
+import IrregularPlant from '../assets/IrregularPlant.PNG';
+import portfolio from '../assets/portfolio.PNG';
+// import Languages from './languages';
+// import ProgressBar from 'react-bootstrap/ProgressBar';
+// import profile1 from '../assets/profile1.jpg';
+// import huskies from '../assets/huskies.jpg';
+// import unccSmall from '../assets/unccSmall.png';
 // import charlotte from '../assets/charlotte.png';
 
-import freecodecamp from '../assets/freecodecamp.png';
-import udemy from '../assets/udemy.png';
-import skillshare from '../assets/skillshare.jpg';
-import youtube from '../assets/youtube.png';
+// import freecodecamp from '../assets/freecodecamp.png';
+// import udemy from '../assets/udemy.png';
+// import skillshare from '../assets/skillshare.jpg';
+// import youtube from '../assets/youtube.png';
 
 // import html5 from '../assets/html5.png';
 // import css3 from '../assets/css3.png';
@@ -36,163 +39,35 @@ class About extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <Grid className='grid-about'>
-          <Cell col={2} />
-          <Cell className='about-header' col={8}>
-            <div>
-              <h1>The guy behind the scenes</h1>
-            </div>
-          </Cell>
-          <Cell col={2} />
-
-          <Cell col={4}>
-            <div className='about-center'>
-              <div>
-                <img src={huskies} alt='huskies' />
-                <h2> Ashe County High School</h2>
-                <h2> West Jefferson, NC</h2>
-                <h2> Class of 2014</h2>
-                <h2> Go Huskies</h2>
-              </div>
-              <hr
-                style={{
-                  width: '80%',
-                  borderTop: '3px dotted black',
-                  margin: 'auto'
-                }}
-              />
-              <div>
-                <img style={{ width: '200px' }} src={unccSmall} alt='uncc' />
-                <h2> UNC Charlotte </h2>
-                <h2> Class of 2018</h2>
-                <h2> Bachelor of Science</h2>
-                <h2> Computer Science</h2>
-              </div>
-            </div>
-          </Cell>
-          <Cell col={4}>
-            <div shadow={5} className='about-left'>
-              <img
-                style={{ width: '75%', borderRadius: '20px' }}
-                src={profile1}
-                alt='Devan Sheets'
-              />
-            </div>
-          </Cell>
-          
-          <Cell col={4}>
-
-            <Grid>
-              <Cell col={12}>
-              </Cell>
-              <Cell col={5}>
-              <a href='https://www.udemy.com/' 
-              target='_blank' 
-              rel="noopener noreferrer"
-              >
-                <img src={udemy} style={{ width: '200px' }}  alt='udemy' />
-              </a>
-              </Cell>
-              <Cell col={2}></Cell>
-              <Cell col={5}>
-              <a href='https://www.youtube.com/' 
-              target='_blank' 
-              rel="noopener noreferrer">
-                <img style={{ width: '200px' }} src={youtube} alt='youtube' />
-              </a>
-              </Cell>
-              
-              <Cell col={5}>
-              <a href='https://www.skillshare.com/' 
-              target='_blank' 
-              rel="noopener noreferrer"><img
-                style={{ width: '200px' }}
-                src={skillshare}
-                alt='skillshare'
-              />
-              </a>
-              </Cell>
-              <Cell col={2}></Cell>
-              <Cell col={5}>
-              <a href='https://www.freecodecamp.com/' 
-              target='_blank' 
-              rel="noopener noreferrer"><img
-                style={{ width: '200px' }}
-                src={freecodecamp}
-                alt='freecodecamp'
-              /></a>
-              </Cell>
-            </Grid>
-          </Cell>
-        </Grid>
+          <Grid className='one'>
+            <Cell col={4}>
+              <img src={Sheets} style={{width: '85%'}} alt='Sheets Store'></img>
+              <hr style={{width: '85%'}}/>
+              <img src={portfolio} style={{width: '85%'}} alt='IrregularPlant'></img>
+              <hr style={{width: '85%'}}/>
+              <img src={IrregularPlant} style={{width: '85%'}} alt='IrregularPlant'></img>
+            </Cell>
+            <Cell col={8}>
+              <h2>Hi! My name is Devan Sheets, I am an ongoing alumni of the University of North Carolina at Charlotte
+                 with a Bachelors of Science degree in Computer Science. I am presently an intern 
+                for <span><a href='https://www.skybest.com' target='_blank' rel="noopener noreferrer">
+                  Skybest Communications</a></span> in West Jefferson, NC.
+              </h2>
+              <br/>
+              <h2>Since graduation and separated from my work activity, I have been learning Web Development. To one 
+                side you can see screen captures of the three sites or web applicaitons I have assembled so far, with 
+                 more data and live connections on the Projects page.
+              </h2>
+              <br/>
+              <h2>On the off chance that you are searching for somebody to make your own site, independent company 
+                site or have some other inquiries, kindly don't hesitate to get in touch with me!
+              </h2>
+            </Cell>            
+          </Grid>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <Grid className='grid-languages'>
-          <Cell col={2} />
-          <Cell shadow={7} className='languages' col={8}>
-            <Typing speed={70}>
-              <h1>{"<h1>What languages do I know?</h1>"}</h1>
-            </Typing>
-          </Cell>
-
-          <Cell col={2} />
-          <Cell col={2} />
-
-          <Cell shadow={7} className='languages-list' col={2}>
-            <Languages
-              lang1='HTML'
-              lang2='CSS'
-              lang3='JAVA SCRIPT'
-              lang4='REACT'
-              lang5='ANGULAR'
-              lang6='NODE'
-              lang7='PYTHON'
-            />
-              
-          </Cell>
-
-          <Cell className='languages-skills' col={6}>
-            <ProgressBar
-              className='progress'
-              animated
-              now={90}
-            />
-            <ProgressBar
-              className='progress2'
-              animated
-              now={90}
-            />
-            <ProgressBar
-              className='progress2'
-              animated
-              now={70}
-            />
-            <ProgressBar
-              className='progress2'
-              animated
-              now={55}
-            />
-            <ProgressBar
-              className='progress2'
-              animated
-              now={40}
-            />
-            <ProgressBar
-              className='progress2'
-              animated
-              now={30}
-            />
-            <ProgressBar
-              className='progress2'
-              animated
-              now={25}
-            />
-          </Cell>
-
-        </Grid>
-        </div>
+        <h2> hey</h2>
       );
     } 
   }
