@@ -24,7 +24,7 @@
     #1fddff,
     #ff4b1f
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -96,7 +96,6 @@ h3 {
 
 .contact-body {
   margin: auto;
-  position: fixed;
   width: 100%;
   justify-content: center;
   padding-top: 2em;
