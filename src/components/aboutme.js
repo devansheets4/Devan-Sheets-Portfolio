@@ -49,10 +49,10 @@ class About extends Component {
             <div className='about-center'>
               <div>
                 <img src={huskies} alt='huskies' />
-                <h3> Ashe County High School</h3>
-                <h3> West Jefferson, NC</h3>
-                <h3> Class of 2014</h3>
-                <h3> Go Huskies</h3>
+                <h2> Ashe County High School</h2>
+                <h2> West Jefferson, NC</h2>
+                <h2> Class of 2014</h2>
+                <h2> Go Huskies</h2>
               </div>
               <hr
                 style={{
@@ -63,10 +63,10 @@ class About extends Component {
               />
               <div>
                 <img style={{ width: '200px' }} src={unccSmall} alt='uncc' />
-                <h3> UNC Charlotte </h3>
-                <h3> Class of 2018</h3>
-                <h3> Bachelor of Science</h3>
-                <h3> Computer Science</h3>
+                <h2> UNC Charlotte </h2>
+                <h2> Class of 2018</h2>
+                <h2> Bachelor of Science</h2>
+                <h2> Computer Science</h2>
               </div>
             </div>
           </Cell>
