@@ -11,8 +11,8 @@ class Resume extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
-            <div style={{ textAlign: 'center' }}>
+          <Cell className='resume-left' col={4}>
+            <div  style={{ textAlign: 'center' }}>
               <img
                 src={avatar}
                 alt='avatar'

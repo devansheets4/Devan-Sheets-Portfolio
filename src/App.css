@@ -27,7 +27,7 @@
   /* position: fixed; */
   top: 0;
   left: 0;
-  position: flex;
+  position: fixed;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -132,6 +132,15 @@ h3 {
   font-size: 5em;
   padding-right: 5rem;
   padding-top: 5rem;
+}
+
+.resume-left h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.resume-left p{
+  font-size: 1.5em;
+  font-family: 'Anton', sans-serif;
 }
 
 .resume-right-col p,
