@@ -183,7 +183,7 @@ h5 {
 }
 
 .grid-languages h1,
-.grid-languages h3 {
+.grid-languages h2 {
   font-family: 'Inconsolata', monospace;
   color: black;
 }
@@ -209,5 +209,5 @@ h5 {
   margin-bottom: 10em;}
 
 .progress2 {
-  margin-bottom: 8.5em;
+  margin-bottom: 9.5em;
 }

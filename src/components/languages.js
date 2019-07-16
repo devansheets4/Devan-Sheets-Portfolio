@@ -7,25 +7,25 @@ class Languages extends Component {
       <div>
         <Grid>
           <Cell col={12}>
-            <h3>{this.props.lang1}</h3>
+            <h2>{this.props.lang1}</h2>
           </Cell>
           <Cell col={12}>
-            <h3>{this.props.lang2}</h3>
+            <h2>{this.props.lang2}</h2>
           </Cell>
           <Cell col={12}>
-            <h3>{this.props.lang3}</h3>
+            <h2>{this.props.lang3}</h2>
           </Cell>
           <Cell col={12}>
-            <h3>{this.props.lang4}</h3>
+            <h2>{this.props.lang4}</h2>
           </Cell>
           <Cell col={12}>
-            <h3>{this.props.lang5}</h3>
+            <h2>{this.props.lang5}</h2>
           </Cell>
           <Cell col={12}>
-            <h3>{this.props.lang6}</h3>
+            <h2>{this.props.lang6}</h2>
           </Cell>
           <Cell col={12}>
-            <h3>{this.props.lang7}</h3>
+            <h2>{this.props.lang7}</h2>
           </Cell>
         </Grid>
       </div>
