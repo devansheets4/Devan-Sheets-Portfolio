@@ -57,14 +57,18 @@ class About extends Component {
           </Cell>
           <Cell col={8}>
             <h3>
-              Hi! My name is Devan Sheets, I am an ongoing alumni of the
-              University of North Carolina at Charlotte with a Bachelors of
-              Science degree in Computer Science. I am presently an intern for{' '}
-              <span>
+              Hi! My name is Devan Sheets, I am an ongoing alumni of the {''}
+              <span style={{ color: 'green', textDecoration: 'underline' }}>
+                University of North Carolina at Charlotte
+              </span>{' '}
+              with a Bachelors of Science degree in Computer Science. I am
+              presently an intern for{' '}
+              <span className='skyline'>
                 <a
                   href='https://www.skybest.com'
                   target='_blank'
                   rel='noopener noreferrer'
+                  style={{ color: 'black', textDecoration: 'underline' }}
                 >
                   Skybest Communications
                 </a>
@@ -107,8 +111,8 @@ class About extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>About Me</Tab>
-          <Tab>Languages</Tab>
+          {/* <Tab>About Me</Tab> */}
+          {/* <Tab>Languages</Tab> */}
         </Tabs>
 
         <Grid>

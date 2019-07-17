@@ -92,7 +92,7 @@ h3 {
 
 .projects-grid {
   display: flex;
-  margin-top: 2em;
+  margin: auto;
 }
 
 .contact-body {
@@ -159,4 +159,8 @@ h5 {
 .one h3 {
   color: black;
   font-family: 'Anton', sans-serif;
+}
+
+.skyline:hover {
+  color: blue;
 }
