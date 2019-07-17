@@ -56,7 +56,7 @@ class About extends Component {
             />
           </Cell>
           <Cell col={8}>
-            <h3>
+            <h4>
               Hi! My name is Devan Sheets, I am an ongoing alumni of the {''}
               <span style={{ color: 'green', textDecoration: 'underline' }}>
                 University of North Carolina at Charlotte
@@ -74,27 +74,27 @@ class About extends Component {
                 </a>
               </span>{' '}
               in West Jefferson, NC.
-            </h3>
+            </h4>
             <br />
-            <h3>
+            <h4>
               Since graduation, and separate from my work activity, I have been
               learning Web Development. To the side you can see screen captures
               of the three sites and web applicaitons I have assembled so far,
               with more data and live connections on the Projects page.
-            </h3>
+            </h4>
             <br />
-            <h3>
+            <h4>
               This website portfolio was built from scratch with the React
               JavaScript framework. This framework makes the website responsive,
               mobile friendly and more aesthetically pleasing for the user. I
               hope to also use this framework for any future clients I may have.
-            </h3>
+            </h4>
             <br />
-            <h3>
+            <h4>
               On the off chance that you are searching for somebody to make your
               own site, or if you may have any other inquiries, please don't
               hesitate to get in touch with me!
-            </h3>
+            </h4>
           </Cell>
         </Grid>
       );
