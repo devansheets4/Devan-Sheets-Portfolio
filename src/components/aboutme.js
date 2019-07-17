@@ -55,15 +55,15 @@ class About extends Component {
               alt='IrregularPlant'
             />
           </Cell>
-          <Cell col={8}>
+          <Cell className='skyline' col={8}>
             <h4>
-              Hi! My name is Devan Sheets, I am an ongoing alumni of the {''}
-              <span style={{ color: 'green', textDecoration: 'underline' }}>
+              Hello! My name is Devan Sheets, I am an ongoing alumni of the {''}
+              <span style={{ color: 'green' }}>
                 University of North Carolina at Charlotte
               </span>{' '}
               with a Bachelors of Science degree in Computer Science. I am
-              presently an intern for{' '}
-              <span className='skyline'>
+              presently an Information Technology intern for{' '}
+              <span>
                 <a
                   href='https://www.skybest.com'
                   target='_blank'
@@ -78,16 +78,19 @@ class About extends Component {
             <br />
             <h4>
               Since graduation, and separate from my work activity, I have been
-              learning Web Development. To the side you can see screen captures
-              of the three sites and web applicaitons I have assembled so far,
-              with more data and live connections on the Projects page.
+              learning Web Development, mostly front-end, but also some full
+              stack. To the side you can see screen captures of the two websites
+              and one web applicaitons I have assembled so far, with more data
+              and live connections on the Projects page.
             </h4>
             <br />
             <h4>
-              This website portfolio was built from scratch with the React
-              JavaScript framework. This framework makes the website responsive,
-              mobile friendly and more aesthetically pleasing for the user. I
-              hope to also use this framework for any future clients I may have.
+              In learning web development, I have used resources from Udemy,
+              Skillshare, YouTube, and FreeCodeCamp alongside my degree to
+              further my education. I have learned tools and languages such as
+              HTML, CSS, JavaScript, ReactJS, NodeJs, AngularJS, Express, and
+              Python. Further, I am using a tool called GitKracken as an easier
+              method to push code to my GitHub repositories.
             </h4>
             <br />
             <h4>
