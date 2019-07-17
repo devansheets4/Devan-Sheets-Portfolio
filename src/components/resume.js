@@ -49,7 +49,7 @@ class Resume extends Component {
             <Courses
               course='Computer Programming'
               course1='Computer Networks'
-              course2='Data Structures & Algrithms'
+              course2='Data Structures & Algorithms'
               course3='Operating Systems & Networking'
               course4='Software Engineering'
               course5='Mobile App Development'
