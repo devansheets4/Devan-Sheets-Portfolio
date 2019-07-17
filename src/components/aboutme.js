@@ -39,37 +39,64 @@ class About extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-          <Grid className='one'>
-            <Cell col={4}>
-              <img src={Sheets} style={{width: '85%'}} alt='Sheets Store'></img>
-              <hr style={{width: '85%'}}/>
-              <img src={portfolio} style={{width: '85%'}} alt='IrregularPlant'></img>
-              <hr style={{width: '85%'}}/>
-              <img src={IrregularPlant} style={{width: '85%'}} alt='IrregularPlant'></img>
-            </Cell>
-            <Cell col={8}>
-              <h2>Hi! My name is Devan Sheets, I am an ongoing alumni of the University of North Carolina at Charlotte
-                 with a Bachelors of Science degree in Computer Science. I am presently an intern 
-                for <span><a href='https://www.skybest.com' target='_blank' rel="noopener noreferrer">
-                  Skybest Communications</a></span> in West Jefferson, NC.
-              </h2>
-              <br/>
-              <h2>Since graduation and separated from my work activity, I have been learning Web Development. To one 
-                side you can see screen captures of the three sites or web applicaitons I have assembled so far, with 
-                 more data and live connections on the Projects page.
-              </h2>
-              <br/>
-              <h2>On the off chance that you are searching for somebody to make your own site, independent company 
-                site or have some other inquiries, kindly don't hesitate to get in touch with me!
-              </h2>
-            </Cell>            
-          </Grid>
+        <Grid className='one'>
+          <Cell col={4}>
+            <img src={Sheets} style={{ width: '85%' }} alt='Sheets Store' />
+            <hr style={{ width: '85%' }} />
+            <img
+              src={portfolio}
+              style={{ width: '85%' }}
+              alt='IrregularPlant'
+            />
+            <hr style={{ width: '85%' }} />
+            <img
+              src={IrregularPlant}
+              style={{ width: '85%' }}
+              alt='IrregularPlant'
+            />
+          </Cell>
+          <Cell col={8}>
+            <h3>
+              Hi! My name is Devan Sheets, I am an ongoing alumni of the
+              University of North Carolina at Charlotte with a Bachelors of
+              Science degree in Computer Science. I am presently an intern for{' '}
+              <span>
+                <a
+                  href='https://www.skybest.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Skybest Communications
+                </a>
+              </span>{' '}
+              in West Jefferson, NC.
+            </h3>
+            <br />
+            <h3>
+              Since graduation, and separate from my work activity, I have been
+              learning Web Development. To the side you can see screen captures
+              of the three sites and web applicaitons I have assembled so far,
+              with more data and live connections on the Projects page.
+            </h3>
+            <br />
+            <h3>
+              This website portfolio was built from scratch with the React
+              JavaScript framework. This framework makes the website responsive,
+              mobile friendly and more aesthetically pleasing for the user. I
+              hope to also use this framework for any future clients I may have.
+            </h3>
+            <br />
+            <h3>
+              On the off chance that you are searching for somebody to make your
+              own site, or if you may have any other inquiries, please don't
+              hesitate to get in touch with me!
+            </h3>
+          </Cell>
+        </Grid>
       );
     } else if (this.state.activeTab === 1) {
-      return (
-        <h2> hey</h2>
-      );
-    } 
+      return <h2> hey</h2>;
+    }
   }
 
   render() {
@@ -93,7 +120,5 @@ class About extends Component {
     );
   }
 }
-
-
 
 export default About;

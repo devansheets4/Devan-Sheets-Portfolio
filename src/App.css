@@ -134,11 +134,11 @@ h3 {
   padding-top: 5rem;
 }
 
-.resume-left h2{
+.resume-left h2 {
   font-family: 'Anton', sans-serif;
 }
 
-.resume-left p{
+.resume-left p {
   font-size: 1.5em;
   font-family: 'Anton', sans-serif;
 }
@@ -154,4 +154,9 @@ h5 {
   color: #b9975b;
   padding: 2em;
   border-radius: 20px;
+}
+
+.one h3 {
+  color: black;
+  font-family: 'Anton', sans-serif;
 }
