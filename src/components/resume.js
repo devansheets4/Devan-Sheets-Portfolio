@@ -97,7 +97,6 @@ class Resume extends Component {
               startYear={2015}
               endYear={2016}
               jobName='Skyline/Skybest Communications - Costruction Intern'
-              jobDescription='Description of the Construction Intern position'
             />
           </Cell>
         </Grid>
