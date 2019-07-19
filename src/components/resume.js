@@ -80,8 +80,8 @@ class Resume extends Component {
               jobName='Skyline/Skybest Communications - Information Technology Intern'
               jobDescription='Aid support of company work areas, PCs and peripherals.'
               jobDescription2='Fabricate new representative PCs for organization use.'
-              jobDescription3='Help with noting technical support line for failing equiptment.'
-              jobDescription4='Utilized remote desktop for spplication support.'
+              jobDescription3='Help with noting technical support line for failing equipment.'
+              jobDescription4='Utilized remote desktop for application support.'
               jobDescription5='Web Application Development.'
             />
             <Experience

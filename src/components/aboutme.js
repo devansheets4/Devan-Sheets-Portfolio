@@ -76,13 +76,15 @@ class About extends Component {
               in West Jefferson, NC.
             </h4>
             <br />
+            <br />
             <h4>
               Since graduation, and separate from my work activity, I have been
               learning Web Development, mostly front-end, but also some full
               stack. To the side you can see screen captures of the two websites
-              and one web applicaitons I have assembled so far, with more data
+              and one web applicaiton I have assembled so far, with more data
               and live connections on the Projects page.
             </h4>
+            <br />
             <br />
             <h4>
               In learning web development, I have used resources from Udemy,
@@ -92,6 +94,7 @@ class About extends Component {
               Python. Further, I am using a tool called GitKracken as an easier
               method to push code to my GitHub repositories.
             </h4>
+            <br />
             <br />
             <h4>
               On the off chance that you are searching for somebody to make your
