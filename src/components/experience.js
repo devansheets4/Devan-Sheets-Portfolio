@@ -7,17 +7,25 @@ class Experience extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <p>
+            <h5>
               {this.props.startYear} - {this.props.endYear}
-            </p>
+            </h5>
           </Cell>
           <Cell col={8}>
-            <h4 style={{ marginTop: '0px', fontWeight: 'bold', textDecoration: 'underline' }}>{this.props.jobName}</h4>
-            <p>{this.props.jobDescription}</p>
-            <p>{this.props.jobDescription2}</p>
-            <p>{this.props.jobDescription3}</p>
-            <p>{this.props.jobDescription4}</p>
-            <p>{this.props.jobDescription5}</p>
+            <h4
+              style={{
+                marginTop: '0px',
+                fontWeight: 'bold',
+                textDecoration: 'underline'
+              }}
+            >
+              {this.props.jobName}
+            </h4>
+            <h5>{this.props.jobDescription}</h5>
+            <h5>{this.props.jobDescription2}</h5>
+            <h5>{this.props.jobDescription3}</h5>
+            <h5>{this.props.jobDescription4}</h5>
+            <h5>{this.props.jobDescription5}</h5>
           </Cell>
         </Grid>
       </div>
