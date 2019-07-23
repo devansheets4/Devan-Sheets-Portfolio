@@ -166,3 +166,36 @@ h5 {
 .skyline a:hover {
   color: blue;
 }
+
+
+@media (max-width: 667px) {
+  .landing-grid {
+    background: #ff4b1f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #1fddff,
+      #ff4b1f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #1fddff,
+      #ff4b1f
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .banner-text{
+    width: 90%;
+    text-align: center;
+  }
+
+  .social-links a{
+    margin: auto;
+  }
+}

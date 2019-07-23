@@ -8,6 +8,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import avatar from '../assets/avatar.jpg';
 
+
+
+
 class Landing extends Component {
   render() {
     return (
