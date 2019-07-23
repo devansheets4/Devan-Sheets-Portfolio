@@ -61,17 +61,26 @@ class Resume extends Component {
             <Acumen
               acumen='Languages:'
               description='Java, C++, JavaScript, HTML5, CSS3, SQL, NodeJS, ExpressJS'
-              acumen2='Web Frameworks:'
-              description2='Bootstrap4, AngularJS, ReactJS'
-              acumen3='Operating Systems:'
-              description3='Windows, Mac'
-              acumen4='Miscrosoft:'
-              description4='Excel, Word, Powerpoint'
-              acumen5='Analytics:'
-              description5='SAS Enterprise Guide, SAS Enterprise Minor, Tableau'
-              acumen6='Web Development:'
-              description6='Created MEAN stack web application, React based website portfolio, and basic HTML/CSS website.'
             />
+            <Acumen acumen2='Web Frameworks:'
+              description2='Bootstrap4, AngularJS, ReactJS'
+              />
+
+              <Acumen acumen3='Operating Systems:'
+              description3='Windows, Mac'
+              />
+
+              <Acumen acumen4='Miscrosoft:'
+              description4='Excel, Word, Powerpoint'
+              />
+
+              <Acumen acumen5='Analytics:'
+              description5='SAS Enterprise Guide, SAS Enterprise Minor, Tableau'
+              />
+
+              <Acumen acumen6='Web Development:'
+              description6='Created MEAN stack web application, React based website portfolio, and basic HTML/CSS website.'
+              /> 
             <hr style={{ borderTop: '3px solid black' }} />
             <h2>Experience</h2>
             <Experience

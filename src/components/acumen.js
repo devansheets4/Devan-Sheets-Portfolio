@@ -7,12 +7,15 @@ class Acumen extends Component {
       <div>
         <Grid>
           <Cell col={4}>
+            <div>
             <h5>{this.props.acumen}</h5>
             <h5>{this.props.acumen2}</h5>
             <h5>{this.props.acumen3}</h5>
             <h5>{this.props.acumen4}</h5>
             <h5>{this.props.acumen5}</h5>
             <h5>{this.props.acumen6}</h5>
+            </div>
+            
           </Cell>
           <Cell col={8}>
             <h5>{this.props.description}</h5>

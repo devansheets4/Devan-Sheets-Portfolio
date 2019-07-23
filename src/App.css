@@ -195,7 +195,33 @@ h5 {
     text-align: center;
   }
 
-  .social-links a{
-    margin: auto;
+  .banner-text h1{
+    font-size: 50px;
   }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 5em;
+  }
+  
+  #youtube:hover {
+    color: red;
+  }
+  
+  #linkedin:hover {
+    color: #0077b5;
+  }
+  
+  #github:hover {
+    color: #6cc644;
+  }
+  
+  .icons {
+    color: white;
+    font-size: 5rem;
+  }
+
 }
+
