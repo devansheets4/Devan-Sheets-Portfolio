@@ -6,24 +6,14 @@ class Acumen extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
+          <Cell col={3}>
             <div>
-            <h5>{this.props.acumen}</h5>
-            <h5>{this.props.acumen2}</h5>
-            <h5>{this.props.acumen3}</h5>
-            <h5>{this.props.acumen4}</h5>
-            <h5>{this.props.acumen5}</h5>
-            <h5>{this.props.acumen6}</h5>
+            <h4 className='acumenName'>{this.props.acumen}</h4>
             </div>
             
           </Cell>
-          <Cell col={8}>
+          <Cell col={9}>
             <h5>{this.props.description}</h5>
-            <h5>{this.props.description2}</h5>
-            <h5>{this.props.description3}</h5>
-            <h5>{this.props.description4}</h5>
-            <h5>{this.props.description5}</h5>
-            <h5>{this.props.description6}</h5>
           </Cell>
         </Grid>
       </div>

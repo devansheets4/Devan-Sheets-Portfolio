@@ -156,6 +156,11 @@ h5 {
   border-radius: 20px;
 }
 
+.acumenName {
+  color: #b9975b;
+  text-decoration: underline;
+}
+
 .one h4 {
   color: black;
   font-family: 'Anton', sans-serif;
