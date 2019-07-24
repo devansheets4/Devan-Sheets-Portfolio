@@ -9,51 +9,48 @@ import {
   IconButton
 } from 'react-mdl';
 import { Grid, Cell } from 'react-mdl';
+import underConstruction from '../assets/underConstruction.jpg';
+import portfolio from '../assets/portfolio.PNG';
+import IrregularPlant from '../assets/IrregularPlant.PNG';
+import Sheets from '../assets/Sheets.PNG';
 
 class Projects extends Component {
   render() {
     return (
       <Grid>
-        <Cell col={4}>
+        <Cell col={3}>
           {/*--------------------------------------------------------------------------------------------------------- */}
-          <Card shadow={5} style={{ margin: 'auto' }}>
+          <Card className='cards' shadow={5} style={{ margin: 'auto' }}>
             <CardTitle
               style={{
                 color: 'white',
-                height: '176px',
-                background:
-                  'url(https://aglowiditsolutions-6lohnuosd1nx.netdna-ssl.com/wp-content/uploads/2018/09/Hire-Mean-Stack-Developer.png) center / cover'
+                height: '200px',
+                backgroundImage: `url(${IrregularPlant})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover'
               }}
             />
             <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
-              Skyline/Skybest Irregular Plant Web Application
+              Skybest Irregular Plant Web App
             </CardText>
             <CardText style={{ textAlign: 'center' }}>
-              This is a MEAN stack application built with AngularJS, NodeJS,
-              Express, and a MongoDB backend non-relational database.
+              Angular, Node, Express, MongoDB
             </CardText>
 
             <CardActions style={{ textAlign: 'center' }}>
               <Button
                 colored
-                href='https://github.com/devansheets4/Irregular-Plant-App'
-                target='_blank'
-              >
-                GitHub
-              </Button>
-              <Button
-                colored
                 href='https://youtu.be/3hBDMfZwr80'
                 target='_blank'
               >
-                View Desktop Demo
+                Desktop Demo
               </Button>
               <Button
                 colored
                 href='https://www.youtube.com/watch?v=V5nDs7EM7-0&t=3s'
                 target='_blank'
               >
-                View Mobile Demo
+                Mobile Demo
               </Button>
             </CardActions>
 
@@ -63,27 +60,24 @@ class Projects extends Component {
           </Card>
         </Cell>
 
-        <Cell col={4}>
+        <Cell col={3}>
           {/*--------------------------------------------------------------------------------------------------------- */}
-          <Card shadow={5} style={{ margin: 'auto' }}>
+          <Card className='cards' shadow={5} style={{ margin: 'auto' }}>
             <CardTitle
               style={{
                 color: 'white',
-                height: '176px',
-                background:
-                  'url(https://www.codingdojo.com/blog/wp-content/uploads/html-css-js.png) center / cover'
+                height: '200px',
+                backgroundImage: `url(${Sheets})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover'
               }}
             />
             <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
-              {' '}
-              Sheets Country Store{' '}
+              Sheets Country Store
             </CardText>
+
             <CardText style={{ textAlign: 'center' }}>
-              My very first website ever built. Constructed using only barebones
-              HTML, CSS, JavaScript, and some Bootstrap. This was mainly a
-              project to build up my understanding of what goes into building
-              larger scale websites with JavaScript frameworks such as React and
-              Angular.
+              HTML5, CSS3, JavaScript
             </CardText>
 
             <CardActions style={{ textAlign: 'center' }}>
@@ -109,31 +103,67 @@ class Projects extends Component {
           </Card>
         </Cell>
 
-        <Cell col={4}>
+        <Cell col={3}>
           {/*--------------------------------------------------------------------------------------------------------- */}
-          <Card shadow={5} style={{ margin: 'auto' }}>
+          <Card className='cards' shadow={5} style={{ margin: 'auto' }}>
             <CardTitle
               style={{
                 color: 'white',
-                height: '176px',
-                background:
-                  'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png) center / cover'
+                height: '200px',
+                backgroundImage: `url(${portfolio})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover'
               }}
             />
             <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
               Devan Sheets Web Portfolio
             </CardText>
+
             <CardText style={{ textAlign: 'center' }}>
-              The site you are currently sitting on if you are reading this.
-              Built using the React JavaScript framework. This is by far my
-              favorite framework to use. React is very simple and very easy to
-              use. Check out the code in my GitHub link.
+              ReactJS, HTML5, CSS3
             </CardText>
 
             <CardActions style={{ textAlign: 'center' }}>
               <Button
                 colored
                 href='https://github.com/devansheets4/Devan-Sheets-Portfolio'
+                target='_blank'
+              >
+                GitHub
+              </Button>
+            </CardActions>
+
+            <CardMenu style={{ color: 'fff' }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          {/*--------------------------------------------------------------------------------------------------------- */}
+        </Cell>
+
+        <Cell col={3}>
+          {/*--------------------------------------------------------------------------------------------------------- */}
+          <Card className='cards' shadow={5} style={{ margin: 'auto' }}>
+            <CardTitle
+              style={{
+                color: 'white',
+                height: '200px',
+                backgroundImage: `url(${underConstruction})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover'
+              }}
+            />
+            <CardText style={{ fontWeight: 'bold', textAlign: 'center' }}>
+              Ginger Mountain Construction, LLC
+            </CardText>
+
+            <CardText style={{ textAlign: 'center' }}>
+              ReactJS, HTML5, CSS3
+            </CardText>
+
+            <CardActions style={{ textAlign: 'center' }}>
+              <Button
+                colored
+                href='https://github.com/devansheets4/Ginger-Mountain-Construction'
                 target='_blank'
               >
                 GitHub

@@ -172,7 +172,6 @@ h5 {
   color: blue;
 }
 
-
 @media (max-width: 667px) {
   .landing-grid {
     background: #ff4b1f; /* fallback for old browsers */
@@ -195,12 +194,12 @@ h5 {
     text-align: center;
   }
 
-  .banner-text{
+  .banner-text {
     width: 90%;
     text-align: center;
   }
 
-  .banner-text h1{
+  .banner-text h1 {
     font-size: 50px;
   }
 
@@ -210,23 +209,21 @@ h5 {
     width: 20%;
     margin-left: 5em;
   }
-  
+
   #youtube:hover {
     color: red;
   }
-  
+
   #linkedin:hover {
     color: #0077b5;
   }
-  
+
   #github:hover {
     color: #6cc644;
   }
-  
+
   .icons {
     color: white;
     font-size: 5rem;
   }
-
 }
-
