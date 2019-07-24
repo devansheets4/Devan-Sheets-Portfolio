@@ -17,7 +17,7 @@ import Sheets from '../assets/Sheets.PNG';
 class Projects extends Component {
   render() {
     return (
-      <Grid>
+      <Grid className='projects-grid' style={{ magin: 'auto' }}>
         <Cell col={3}>
           {/*--------------------------------------------------------------------------------------------------------- */}
           <Card className='cards' shadow={5} style={{ margin: 'auto' }}>
